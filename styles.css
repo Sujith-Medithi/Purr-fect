@@ -560,8 +560,11 @@ button {
     font-size: 0.85rem;
     color: var(--text-secondary);
     margin-bottom: 8px;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 105px 1fr;
+    gap: 8px;
+    align-items: start;
+    text-align: left;
 }
 
 .nature-traits li span {
