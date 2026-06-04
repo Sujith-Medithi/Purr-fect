@@ -191,16 +191,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         sage: {
             title: "The Independent Sage!",
-            vector: `
-                <div class="result-vector-img sage-bg">
-                    <svg viewBox="0 0 100 100" class="svg-cat-silhouette">
-                        <path d="M30 80 C 30 50, 45 40, 50 30 C 47 28, 45 22, 47 18 C 50 12, 58 12, 60 18 C 62 20, 62 26, 60 30 C 65 38, 75 50, 75 80 Z" fill="currentColor"/>
-                        <path d="M47 18 L 40 10 L 49 14 Z" fill="currentColor"/>
-                        <path d="M60 18 L 67 10 L 58 14 Z" fill="currentColor"/>
-                        <path d="M75 80 C 80 80, 85 70, 82 55" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round"/>
-                    </svg>
-                </div>
-            `,
+            img: "images/sage_cat.png",
             desc: "You matched with the Independent Sage nature. You live a busy life or enjoy personal space, making this dignified companion perfect. A Sage cat is calm, quiet, and independent. They show love through gentle slow-blinks and like to observe you peacefully from a distance without demanding constant attention.",
             tips: [
                 "Provide small cozy cubbies or cardboard boxes where they can retreat and rest completely undisturbed.",
@@ -210,17 +201,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         chatterbox: {
             title: "The Vocal Chatterbox!",
-            vector: `
-                <div class="result-vector-img chatterbox-bg">
-                    <svg viewBox="0 0 100 100" class="svg-cat-silhouette">
-                        <path d="M25 80 C 25 50, 40 40, 45 35 C 42 32, 40 28, 41 22 C 43 14, 52 14, 54 22 C 55 24, 55 28, 53 32 C 58 38, 68 50, 68 80 Z" fill="currentColor"/>
-                        <path d="M41 22 L 34 14 L 43 18 Z" fill="currentColor"/>
-                        <path d="M54 22 L 61 14 L 52 18 Z" fill="currentColor"/>
-                        <path d="M50 45 C 40 45, 30 52, 25 60" stroke="currentColor" stroke-width="2.5" fill="none" stroke-dasharray="3 3"/>
-                        <path d="M22 55 L 12 55 C 10 55, 10 52, 12 52 L 22 52 Z" fill="currentColor"/>
-                    </svg>
-                </div>
-            `,
+            img: "images/chatterbox_cat.png",
             desc: "You matched with the Vocal Chatterbox nature. You love social engagement and constant interaction. A Chatterbox is an outgoing communicator who will chirp, trill, and meow to share their daily thoughts, answer your questions, and express exactly what they need.",
             tips: [
                 "Engage in conversations with them! Vocal feedback strengthens your bond.",

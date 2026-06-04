@@ -823,7 +823,8 @@ button {
 }
 
 .result-tips ul {
-    list-style-position: inside;
+    padding-left: 20px;
+    list-style-type: disc;
 }
 
 .result-tips li {
@@ -1088,7 +1089,8 @@ button {
 }
 
 .modal-body ul {
-    list-style-position: inside;
+    padding-left: 20px;
+    list-style-type: disc;
     margin-bottom: 20px;
 }
 
